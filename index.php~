@@ -61,7 +61,6 @@
                 <a href="https://soundcloud.com/joshua-aurandt">Soundcloud</a>
                 <a href="https://www.twitch.tv/enadasa">Twitch</a>
                 <a href="https://bsky.app/profile/enadasa.bsky.social">Bluesky</a>
-                <a href="https://kick.com/enadasa">Kick</a>
                 <a href="mailto:enadasa@outlook.com">Email</a>
             </h2>
         </div>
@@ -75,16 +74,15 @@
         </script>
     </div>
     <div>
-        <h1 style="text-align: center; position: relative;">Featured Content</h1>
+        <h1 style="text-align: center;">Featured Content</h1>
         <?php include 'phplets/content.php' ?>
     </div>
 
     <div>
         <footer>
-            <h3>Github repos<h3>
+            
             <a href="https://github.com/lordgrass/fictioncollectiveweb/tree/main">Github Repo (Website)</a>
             <a href="https://github.com/lordgrass/fictioncollective">Github Repo (Luanti Server Mods/Modpacks)</a>
-            <a href="https://github.com/lordgrass/lordgrass.com">Github Repo (Old website/Lordgrass.com)</a>
         </footer>
     </div>
 </body>
