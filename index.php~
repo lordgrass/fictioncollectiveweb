@@ -70,9 +70,9 @@
     </div>
     <!--Featured content section-->
     <div style="position: fixed; width: 100%;">
-        <h1 style="text-align: center; ">Featured content & creators</h1>
-        <?php include 'phplets/content.php' ?>
+        <h1 style="text-align: center; ">Featured content & creators</h1><?php include 'phplets/content.php' ?>
     </div>
+    
     <!--Footer + sitemap-->
     <div style="position: fixed;">
         <footer>
