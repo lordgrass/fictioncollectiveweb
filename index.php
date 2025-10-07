@@ -43,13 +43,13 @@
     </style>
 </head>
 <body>
-    <header style="height: 120px; background-color: crimson; border-top: 5px solid white; border-bottom: 5px solid white; border-radius: 10px;">
+    <header style="height: 120px; background-color: crimson; border: 5px solid white; border-radius: 10px;">
         <h1 style="text-align: center;">The Fiction Cabal</h1>
-        <h2 style="text-align: center;">We are a small community of Star Wars fans. This website is unfinished:</h2>
+        <h2 style="text-align: center;">We are a small community of friends. This website is unfinished</h2>
     </header>
     <div style="margin-top: 10px; height: 240px; border-radius: 10px;">
-        <img style="height: 100%; border-radius: 10px; width: 160px; height: 160px; float: left; border-top: 5px solid white; border-bottom: 5px solid white; padding: 2px;" src="favicon.ico" alt="The site logo">
-        <img src="enadasa.png" alt="Webmasters profile picture on almost all services" style="height: 160px; width: 160px; border-top: 5px solid white; border-bottom: 5px solid white; border-radius: 10px;" id="menuButton">
+        <img style="height: 100%; border-radius: 10px; width: 160px; height: 160px; float: left; border: 5px solid white; padding: 2px;" src="favicon.ico" alt="The site logo">
+        <img src="enadasa.png" alt="Webmasters profile picture on almost all services" style="height: 160px; width: 160px; border: 5px solid white; border-radius: 10px;" id="menuButton">
         <!--Admin Social Menu-->
         <div id="menu">
             <h2>
@@ -65,23 +65,18 @@
                 <a href="mailto:enadasa@outlook.com">Email</a>
             </h2>
         </div>
-        <script type="text/javascript">
-        const menuButton = document.getElementById('menuButton');
-        const menu = document.getElementById('menu');
-
-        menuButton.addEventListener('click', () => {
-            menu.style.display = (menu.style.display === 'none' || menu.style.display === '') ? 'block' : 'none';
-        });
-        </script>
+    <!--Menu function script-->
+        <script type="text/javascript" src="jscripts/hide-unhide.js"></script>
     </div>
-    <div>
-        <h1 style="text-align: center; position: relative;">Featured Content</h1>
+    <!--Featured content section-->
+    <div style="position: fixed; width: 100%;">
+        <h1 style="text-align: center; ">Featured content & creators</h1>
         <?php include 'phplets/content.php' ?>
     </div>
-
-    <div>
+    <!--Footer + sitemap-->
+    <div style="position: fixed;">
         <footer>
-            <h3>Github repos<h3>
+            <h3 style="text-align: center;">Webmaster's Github repos<h3>
             <a href="https://github.com/lordgrass/fictioncollectiveweb/tree/main">Github Repo (Website)</a>
             <a href="https://github.com/lordgrass/fictioncollective">Github Repo (Luanti Server Mods/Modpacks)</a>
             <a href="https://github.com/lordgrass/lordgrass.com">Github Repo (Old website/Lordgrass.com)</a>

@@ -1,9 +1,6 @@
-const menuState = [false];
-const buttonToggle = document.getElementById('buttonToggle');
+const menuButton = document.getElementById('menuButton');
 const menu = document.getElementById('menu');
-                
-buttonToggle.addEventListener('click', () => {
-menuState[0] = !menuState[0];
-menu.style.display = menuState[0] ? 'block' : 'none';
-});
 
+menuButton.addEventListener('click', () => {
+    menu.style.display = (menu.style.display === 'none' || menu.style.display === '') ? 'block' : 'none';
+});

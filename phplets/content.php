@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost:3306';
-$username = 'enadasa';
-$password = 't0eQiun3YS%n&n9g';
+$username = 'enadasatesting';
+$password = 'fEZggSotn5f26q&$';
 $database = 'contentdb';
 $table = 'content';
 $field = 'string_column';
