@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #676666;
+            background-color: black;
             color: white;
             padding: 10px;
             font-family: 'Orbitron', sans-serif;
@@ -31,29 +31,30 @@
             border-radius: 10px;
             text-align: center;
             width: 220px;
-            float: right;
+            float: left;
             background-color: crimson;
         }
         #menuButton {
             color: white;
-            border-radius: 10px;
             cursor: pointer;
-            float: right;
         }
     </style>
 </head>
 <body>
+    <img style="border-radius: 10px; width: 150px; height: 150px; border: 6px solid white;" src="favicon.ico" alt="The site logo">
     <header style="height: 120px; background-color: crimson; border: 5px solid white; border-radius: 10px;">
-        <h1 style="text-align: center;">The Fiction Cabal</h1>
-        <h2 style="text-align: center;">We are a small community of friends. This website is unfinished</h2>
+        <h1 style="text-align: center;">The Fiction Cabal | Test Domain</h1>
+        <h2 style="text-align: center;">We are a small community interested in many things. This page is unfinished bugs may exist.</h2>
     </header>
-    <div style="margin-top: 10px; height: 240px; border-radius: 10px;">
-        <img style="height: 100%; border-radius: 10px; width: 160px; height: 160px; float: left; border: 5px solid white; padding: 2px;" src="favicon.ico" alt="The site logo">
-        <img src="enadasa.png" alt="Webmasters profile picture on almost all services" style="height: 160px; width: 160px; border: 5px solid white; border-radius: 10px;" id="menuButton">
-        <!--Admin Social Menu-->
+    <div style="padding-top: 5px;">
+        <h1 style="border-bottom: 5px solid white; border-radius: 10px; color: white; text-align: center;">The team</h1>
+    </div>
+    <div style="padding-top: 5px;">
+        <img src="enadasa.png" alt="Webmasters profile picture on almost all services" style="border: 5px solid white; border-radius: 10px; height: 150px; width: 150px;" id="menuButton">
+        <!--Enadasa's Social Menu-->
         <div id="menu">
-            <h2>
-                <span style="border-bottom: 4px solid white; border-radius: 10px;">Enadasa</span>
+            <h3>
+                <span style="border-bottom: 5px solid white; border-radius: 10px;">Enadasa</span>
                 <a href="https://enadasa.vivaldi.net">Blog</a>
                 <a href="https://social.vivaldi.net/@enadasa">Mastodon</a>
                 <a href="https://www.youtube.com/@enadasa">YouTube</a>
@@ -63,18 +64,16 @@
                 <a href="https://bsky.app/profile/enadasa.bsky.social">Bluesky</a>
                 <a href="https://kick.com/enadasa">Kick</a>
                 <a href="mailto:enadasa@outlook.com">Email</a>
-            </h2>
-        </div>
-    <!--Menu function script-->
+            </h3>
         <script type="text/javascript" src="jscripts/hide-unhide.js"></script>
     </div>
     <!--Featured content section-->
-    <div style="position: fixed; width: 100%;">
-        <h1 style="text-align: center; ">Featured content & creators</h1>
+    <div style="width: 100%">
+        <h1 style="text-align: center;">Featured content & creators</h1>
         <?php include 'phplets/content.php' ?>
     </div>
     <!--Footer + sitemap-->
-    <div style="position: fixed;">
+    <div style="position: fixed; bottom: 0;">
         <footer>
             <h3 style="text-align: center;">Webmaster's Github repos</h3>
             <a href="https://github.com/lordgrass/fictioncollectiveweb/tree/main">Github Repo (Website)</a>

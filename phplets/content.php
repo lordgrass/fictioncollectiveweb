@@ -2,7 +2,7 @@
 $host = 'localhost:3306';
 $username = 'enadasatesting';
 $password = 'fEZggSotn5f26q&$';
-$database = 'contentdb';
+$database = 'testingdb';
 $table = 'content';
 $field = 'string_column';
 // Create a connection
